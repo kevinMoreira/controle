@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="774e3fb8-45b4-41c3-b959-46c0b59ff140" name="Default" comment="" />
+    <ignored path="SistemaJPTCC.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SistemaJPTCC" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="compra-de-produtos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/compra-de-produtos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="275" column="38" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro-de-usuarios.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/cadastro-de-usuarios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="430" column="60" selection-start-line="430" selection-start-column="60" selection-end-line="430" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro-de-usuarios.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/cadastro-de-usuarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="351" column="30" selection-start-line="351" selection-start-column="30" selection-end-line="351" selection-end-column="30" />
+              <folding>
+                <marker date="1467898934794" expanded="true" signature="1042:1102" placeholder="select * fro... departamento" />
+                <marker date="1467898934794" expanded="true" signature="1514:1708" placeholder="SELECT m.idM... menu" />
+                <marker date="1467898934794" expanded="true" signature="2209:2267" placeholder="SELECT s.nom... sub_menu" />
+                <marker date="1467898934794" expanded="true" signature="3374:4427" placeholder="INSERT INTO `usuarios`... " />
+                <marker date="1467898934794" expanded="true" signature="4582:4710" placeholder="SELECT idUsu... usuarios" />
+                <marker date="1467898934794" expanded="true" signature="4975:5094" placeholder="insert into controle_menu... " />
+                <marker date="1467898934794" expanded="true" signature="5200:5328" placeholder="insert into controle_submenu... " />
+                <marker date="1467898934794" expanded="true" signature="5496:6050" placeholder="SELECT u.idU... usuarios" />
+                <marker date="1467898934794" expanded="true" signature="7183:7371" placeholder="SELECT cm.id... controle_menu" />
+                <marker date="1467898934794" expanded="true" signature="7280:7345" placeholder="/*LEFT JOIN " />
+                <marker date="1467898934794" expanded="true" signature="7754:7811" placeholder="SELECT idSub... controle_submenu" />
+                <marker date="1467898934794" expanded="true" signature="8190:8321" placeholder="UPDATE usuar... " />
+                <marker date="1467898934794" expanded="true" signature="9335:9881" placeholder="UPDATE usuar... " />
+                <marker date="1467898934794" expanded="true" signature="10191:10272" placeholder="DELETE FROM " />
+                <marker date="1467898934794" expanded="true" signature="10346:10430" placeholder="DELETE FROM " />
+                <marker date="1467898934794" expanded="true" signature="10550:10644" placeholder="INSERT into controle_menu... " />
+                <marker date="1467898934794" expanded="true" signature="10750:10849" placeholder="INSERT into controle_submenu... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compra-de-produtos.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/compra-de-produtos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+              <folding>
+                <marker date="1467903299952" expanded="true" signature="971:1264" placeholder="select p.idp... produto" />
+                <marker date="1467903299952" expanded="true" signature="1735:1826" placeholder="SELECT * FRO... categoria" />
+                <marker date="1467903299952" expanded="true" signature="1853:2056" placeholder="SELECT * FRO... categoria" />
+                <marker date="1467903299952" expanded="true" signature="1988:2036" placeholder="select idCat... produto" />
+                <marker date="1467903299952" expanded="true" signature="2431:2580" placeholder="SELECT idPro... produto" />
+                <marker date="1467903299952" expanded="true" signature="2823:2940" placeholder="SELECT * FRO... categoria" />
+                <marker date="1467903299952" expanded="true" signature="2823:2941" placeholder="SELECT * FRO... categoria" />
+                <marker date="1467903299952" expanded="true" signature="3346:3453" placeholder="SELECT idFor... fornecedor" />
+                <marker date="1467903299952" expanded="true" signature="4573:5027" placeholder="INSERT INTO loteprodutos... " />
+                <marker date="1467903299952" expanded="true" signature="5082:5461" placeholder="INSERT INTO loteprodutosbaixa... " />
+                <marker date="1467903299952" expanded="true" signature="5306:5342" placeholder="select max(i... loteprodutos" />
+                <marker date="1467903299952" expanded="true" signature="5634:6205" placeholder="SELECT c.nom... loteprodutos" />
+                <marker date="1467903299952" expanded="true" signature="6940:7070" placeholder="UPDATE lotep... " />
+                <marker date="1467903299952" expanded="true" signature="8299:8527" placeholder="UPDATE lotep... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/cadastro-de-clientes.js" />
+        <option value="$PROJECT_DIR$/js/cadastro-de-produtos.js" />
+        <option value="$PROJECT_DIR$/php/Dao/ProdutoDao.php" />
+        <option value="$PROJECT_DIR$/php/Dao/CategoriaDao.php" />
+        <option value="$PROJECT_DIR$/php/Dao/UsuarioDao.php" />
+        <option value="$PROJECT_DIR$/php/cadastro-de-usuarios.php" />
+        <option value="$PROJECT_DIR$/js/cadastro-de-usuarios.js" />
+        <option value="$PROJECT_DIR$/php/compra-de-produtos.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Neg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ent" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dao" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SistemaJPTCC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="774e3fb8-45b4-41c3-b959-46c0b59ff140" name="Default" comment="" />
+      <created>1467859214632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1467859214632</updated>
+      <workItem from="1467859216878" duration="6185000" />
+      <workItem from="1467896737903" duration="6061000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12246000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/cadastro-de-produtos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" column="61" selection-start-line="100" selection-start-column="61" selection-end-line="100" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Dao/ProdutoDao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <marker date="1467862743083" expanded="true" signature="366:684" placeholder="SELECT `prod... produto" />
+            <marker date="1467862743083" expanded="true" signature="1344:1751" placeholder="INSERT INTO `estoque`.`produto`... " />
+            <marker date="1467862743083" expanded="true" signature="2056:2347" placeholder="UPDATE `prod... " />
+            <marker date="1467862743083" expanded="true" signature="2929:3046" placeholder="UPDATE `prod... " />
+            <marker date="1467862743083" expanded="true" signature="3269:3396" placeholder="SELECT idCat... categoria" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Dao/CategoriaDao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+          <folding>
+            <marker date="1467862987089" expanded="true" signature="379:705" placeholder="SELECT idCat... categoria" />
+            <marker date="1467862987089" expanded="true" signature="1161:1482" placeholder="INSERT INTO categoria... " />
+            <marker date="1467862987089" expanded="true" signature="1732:1982" placeholder="UPDATE `cate... " />
+            <marker date="1467862987089" expanded="true" signature="2211:2400" placeholder="UPDATE `cate... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/compra-de-produtos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1467903299952" expanded="true" signature="971:1264" placeholder="select p.idp... produto" />
+            <marker date="1467903299952" expanded="true" signature="1735:1826" placeholder="SELECT * FRO... categoria" />
+            <marker date="1467903299952" expanded="true" signature="1853:2056" placeholder="SELECT * FRO... categoria" />
+            <marker date="1467903299952" expanded="true" signature="1988:2036" placeholder="select idCat... produto" />
+            <marker date="1467903299952" expanded="true" signature="2431:2580" placeholder="SELECT idPro... produto" />
+            <marker date="1467903299952" expanded="true" signature="2823:2940" placeholder="SELECT * FRO... categoria" />
+            <marker date="1467903299952" expanded="true" signature="2823:2941" placeholder="SELECT * FRO... categoria" />
+            <marker date="1467903299952" expanded="true" signature="3346:3453" placeholder="SELECT idFor... fornecedor" />
+            <marker date="1467903299952" expanded="true" signature="4573:5027" placeholder="INSERT INTO loteprodutos... " />
+            <marker date="1467903299952" expanded="true" signature="5082:5461" placeholder="INSERT INTO loteprodutosbaixa... " />
+            <marker date="1467903299952" expanded="true" signature="5306:5342" placeholder="select max(i... loteprodutos" />
+            <marker date="1467903299952" expanded="true" signature="5634:6205" placeholder="SELECT c.nom... loteprodutos" />
+            <marker date="1467903299952" expanded="true" signature="6940:7070" placeholder="UPDATE lotep... " />
+            <marker date="1467903299952" expanded="true" signature="8299:8527" placeholder="UPDATE lotep... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/compra-de-produtos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4675">
+          <caret line="275" column="38" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="687" column="28" selection-start-line="687" selection-start-column="27" selection-end-line="687" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Neg/ClienteNeg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="91" column="78" selection-start-line="91" selection-start-column="77" selection-end-line="91" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Ent/Pessoa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/cadastro-de-clientes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/cadastro-de-produtos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" column="61" selection-start-line="100" selection-start-column="61" selection-end-line="100" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Dao/ProdutoDao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <marker date="1467862743083" expanded="true" signature="366:684" placeholder="SELECT `prod... produto" />
+            <marker date="1467862743083" expanded="true" signature="1344:1751" placeholder="INSERT INTO `estoque`.`produto`... " />
+            <marker date="1467862743083" expanded="true" signature="2056:2347" placeholder="UPDATE `prod... " />
+            <marker date="1467862743083" expanded="true" signature="2929:3046" placeholder="UPDATE `prod... " />
+            <marker date="1467862743083" expanded="true" signature="3269:3396" placeholder="SELECT idCat... categoria" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Dao/CategoriaDao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+          <folding>
+            <marker date="1467862987089" expanded="true" signature="379:705" placeholder="SELECT idCat... categoria" />
+            <marker date="1467862987089" expanded="true" signature="1161:1482" placeholder="INSERT INTO categoria... " />
+            <marker date="1467862987089" expanded="true" signature="1732:1982" placeholder="UPDATE `cate... " />
+            <marker date="1467862987089" expanded="true" signature="2211:2400" placeholder="UPDATE `cate... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Dao/UsuarioDao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582">
+          <caret line="195" column="18" selection-start-line="195" selection-start-column="14" selection-end-line="195" selection-end-column="18" />
+          <folding>
+            <marker date="1467898341209" expanded="true" signature="465:1083" placeholder="SELECT nome usuarios" />
+            <marker date="1467898341209" expanded="true" signature="2768:2892" placeholder="SELECT idDep... departamento" />
+            <marker date="1467898341209" expanded="true" signature="3513:4528" placeholder="INSERT INTO `usuarios`... " />
+            <marker date="1467898341209" expanded="true" signature="3513:4811" placeholder="INSERT INTO `usuarios`... " />
+            <marker date="1467898341209" expanded="true" signature="5365:6072" placeholder="UPDATE `usua... " />
+            <marker date="1467898341209" expanded="true" signature="7557:7753" placeholder="UPDATE `usua... " />
+            <marker date="1467898341209" expanded="true" signature="9815:9923" placeholder="SELECT idUsu... usuarios" />
+            <marker date="1467898341209" expanded="true" signature="10224:10293" placeholder="insert into controle_menu... " />
+            <marker date="1467898341209" expanded="true" signature="10415:10508" placeholder="insert into controle_submenu... " />
+            <marker date="1467898341209" expanded="true" signature="17043:17194" placeholder="INSERT INTO organizacao... " />
+            <marker date="1467898341209" expanded="true" signature="17253:17980" placeholder="INSERT INTO usuarios... " />
+            <marker date="1467898341209" expanded="true" signature="17832:17867" placeholder="SELECT md5(F... " />
+            <marker date="1467898341209" expanded="true" signature="17882:17934" placeholder="select DATE_... " />
+            <marker date="1467898341209" expanded="true" signature="18664:20556" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="18692:18769" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="18797:20527" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="18943:20498" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="18977:19167" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="19015:19132" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="19201:19391" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="19239:19356" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="19425:19615" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="19463:19580" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="19649:19858" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="19687:19823" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="19892:20088" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="19930:20053" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="20123:20464" placeholder="..." />
+            <marker date="1467898341209" expanded="true" signature="20161:20429" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Neg/UsuarioNeg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/cadastro-de-usuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="351" column="30" selection-start-line="351" selection-start-column="30" selection-end-line="351" selection-end-column="30" />
+          <folding>
+            <marker date="1467898934794" expanded="true" signature="1042:1102" placeholder="select * fro... departamento" />
+            <marker date="1467898934794" expanded="true" signature="1514:1708" placeholder="SELECT m.idM... menu" />
+            <marker date="1467898934794" expanded="true" signature="2209:2267" placeholder="SELECT s.nom... sub_menu" />
+            <marker date="1467898934794" expanded="true" signature="3374:4427" placeholder="INSERT INTO `usuarios`... " />
+            <marker date="1467898934794" expanded="true" signature="4582:4710" placeholder="SELECT idUsu... usuarios" />
+            <marker date="1467898934794" expanded="true" signature="4975:5094" placeholder="insert into controle_menu... " />
+            <marker date="1467898934794" expanded="true" signature="5200:5328" placeholder="insert into controle_submenu... " />
+            <marker date="1467898934794" expanded="true" signature="5496:6050" placeholder="SELECT u.idU... usuarios" />
+            <marker date="1467898934794" expanded="true" signature="7183:7371" placeholder="SELECT cm.id... controle_menu" />
+            <marker date="1467898934794" expanded="true" signature="7280:7345" placeholder="/*LEFT JOIN " />
+            <marker date="1467898934794" expanded="true" signature="7754:7811" placeholder="SELECT idSub... controle_submenu" />
+            <marker date="1467898934794" expanded="true" signature="8190:8321" placeholder="UPDATE usuar... " />
+            <marker date="1467898934794" expanded="true" signature="9335:9881" placeholder="UPDATE usuar... " />
+            <marker date="1467898934794" expanded="true" signature="10191:10272" placeholder="DELETE FROM " />
+            <marker date="1467898934794" expanded="true" signature="10346:10430" placeholder="DELETE FROM " />
+            <marker date="1467898934794" expanded="true" signature="10550:10644" placeholder="INSERT into controle_menu... " />
+            <marker date="1467898934794" expanded="true" signature="10750:10849" placeholder="INSERT into controle_submenu... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/compra-de-produtos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="275" column="38" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/cadastro-de-usuarios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="430" column="60" selection-start-line="430" selection-start-column="60" selection-end-line="430" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/compra-de-produtos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+          <folding>
+            <marker date="1467903299952" expanded="true" signature="971:1264" placeholder="select p.idp... produto" />
+            <marker date="1467903299952" expanded="true" signature="1735:1826" placeholder="SELECT * FRO... categoria" />
+            <marker date="1467903299952" expanded="true" signature="1853:2056" placeholder="SELECT * FRO... categoria" />
+            <marker date="1467903299952" expanded="true" signature="1988:2036" placeholder="select idCat... produto" />
+            <marker date="1467903299952" expanded="true" signature="2431:2580" placeholder="SELECT idPro... produto" />
+            <marker date="1467903299952" expanded="true" signature="2823:2940" placeholder="SELECT * FRO... categoria" />
+            <marker date="1467903299952" expanded="true" signature="2823:2941" placeholder="SELECT * FRO... categoria" />
+            <marker date="1467903299952" expanded="true" signature="3346:3453" placeholder="SELECT idFor... fornecedor" />
+            <marker date="1467903299952" expanded="true" signature="4573:5027" placeholder="INSERT INTO loteprodutos... " />
+            <marker date="1467903299952" expanded="true" signature="5082:5461" placeholder="INSERT INTO loteprodutosbaixa... " />
+            <marker date="1467903299952" expanded="true" signature="5306:5342" placeholder="select max(i... loteprodutos" />
+            <marker date="1467903299952" expanded="true" signature="5634:6205" placeholder="SELECT c.nom... loteprodutos" />
+            <marker date="1467903299952" expanded="true" signature="6940:7070" placeholder="UPDATE lotep... " />
+            <marker date="1467903299952" expanded="true" signature="8299:8527" placeholder="UPDATE lotep... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

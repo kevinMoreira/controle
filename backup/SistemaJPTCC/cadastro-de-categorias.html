@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cadastro de Usuários | Sistema JP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/sistemaJP.css"/>
+        <link rel="stylesheet" href="css/cadastro-de-usuarios.css" />
+        <script type="text/javascript" src="js/json.js"></script>
+        <script type="text/javascript" src="js/ajax.js"></script>
+        <script type="text/javascript" src="js/sistemaJP.js"></script>
+        <script type="text/javascript" src="js/cadastro-de-categorias.js"></script>
+    </head>
+    <body>
+        <div id="menu">
+            <div class="identificacao">
+                <label id="nome_usuario"></label>
+            </div>
+        </div>
+        <div class="divbranca">
+            <h3>Cadastro de Categorias</h3>
+            <div class="divrisco"></div>
+            <table>
+                <tr>
+                    <td><span>Nome</span></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="nome" class="campos_cadastro" size="30"/></td>
+                </tr>                    
+            </table>
+        </div>
+        <div class="divferramentas">
+            <div class="navegacao">
+                <!-- <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/primeiro.png);" id="D1" onclick="D1_onClick()"></div>
+                <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/anterior.png);" id="D2" onclick="D2_onClick()"></div>
+                <input type="text" class="campos_cadastro" style="float:left;" id="codigo" onkeydown="codigo_KeyDown()" size="5"/>
+                <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/proximo.png);" id="D3" onclick="D3_onClick()"></div>
+                <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/ultimo.png);" id="D4" onclick="D4_onClick()"></div> -->
+                <table class="alinhamento_centralizado">
+                    <tr>
+                        <td>
+                            <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/primeiro.png);" id="D1" onclick="D1_onClick()"></div>
+                        </td>
+                        <td>
+                            <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/anterior.png);" id="D2" onclick="D2_onClick()"></div>
+                        </td>
+                        <td>
+                            <input type="text" class="campos_cadastro" style="float:left;" id="codigo" onkeydown="codigo_KeyDown()" size="5"/>
+                        <td>
+                            <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/proximo.png);" id="D3" onclick="D3_onClick()"></div>
+                        </td>
+                        <td>
+                             <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/ultimo.png);" id="D4" onclick="D4_onClick()"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>  
+        </div>
+        <div id="botoes">
+            <div class="divbotoes">
+                <!-- <img src="imagens/novo.png" width="50" height="50" alt="Cadastrar" title="Cadastrar" class="efeito_subir" id="novo" onclick="Novo()">
+                <img src="imagens/editar.png" width="50" height="50" alt="Editar" title="Editar" class="efeito_subir" id="editar" onclick="Editar();">
+                <img src="imagens/excluir.png" width="50" height="50" alt="Excluir" title="Excluir" class="efeito_subir" id="excluir" onclick="Excluir();">
+                <img src="imagens/pesquisar.png" width="47" height="47" alt="Pesquisar" title="Pesquisar" class="efeito_subir" id="pesquisar" onclick="Pesquisar();"> -->
+
+                <table class="alinhamento_centralizado">
+                    <tr>
+                        <td>
+                            <img src="imagens/novo.png" width="50" height="50" alt="Cadastrar" title="Cadastrar" class="efeito_subir" id="novo" onclick="Novo()">
+                        </td>
+                        <td>
+                            <img src="imagens/editar.png" width="50" height="50" alt="Editar" title="Editar" class="efeito_subir" id="editar" onclick="Editar();">
+                        </td>
+                        <td>
+                            <img src="imagens/excluir.png" width="50" height="50" alt="Excluir" title="Excluir" class="efeito_subir" id="excluir" onclick="Excluir();">
+                        <td>
+                             <img src="imagens/pesquisar.png" width="47" height="47" alt="Pesquisar" title="Pesquisar" class="efeito_subir" id="pesquisar" onclick="Pesquisar();">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    </body>
+</html>

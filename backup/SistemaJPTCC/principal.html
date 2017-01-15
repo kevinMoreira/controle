@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Principal | Sistema JP</title>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width"> -->
+
+
+<!--     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/demo.css">
+    <script type="text/javascript" src="js/json.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
+    <script type="text/javascript" src="js/sistemaJP.js"></script>
+    <script type="text/javascript" src="js/principal.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/Chart/Chart.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/sistemaJP.css" />
+
+
+    <script type="text/javascript" src="js/legend.js"></script>
+    <script type="text/javascript">
+        var $JQuery = jQuery.noConflict();
+    </script>
+</head>
+<body>
+    <div id="menu">
+        <div class="identificacao">
+            <label id="nome_usuario"></label>
+        </div>
+    </div>
+    <div id="divbranca" class="divisualizar">
+        <div><h1>DashBoard de Vendas</h1></div>
+        <div id="legenda" style="float: right">
+            <div id="lineLegend"></div>
+        </div>
+        <canvas id="myChart" width="1000" height="400"></canvas>
+    </div>
+
+
+    <a href="#" id="acionaAvisos"  style="display:none;" class="btn btn-success btn-block" data-toggle="modal" data-target="#squarespaceModal" >Orçar Pedido<i class="fa fa-angle-right"></i></a>
+
+
+    <div class="modal fade alert" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"></span><span class="sr-only">Close</span></button>
+                <h3 class="modal-title" id="lineModalLabel">Atenção!</h3>
+            </div>
+            <div class="modal-body">
+                
+                <div id="divChegandoAoFim" style="display:none"><p>Temos produtos em baixa no estoque:</p></div>
+                <br />
+                <div id="divProxVencimento" style="display:none"><p>Temos produtos com a data de validade chegando ao fim no estoque:</p></div>
+                <br />
+                <div id="divVencido" style="display:none"><p>Temos produtos vencidos no estoque:</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

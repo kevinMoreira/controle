@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Cadastre-se</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/sistemaJP.css"/>
+    <link rel="stylesheet" href="css/cadastro-de-usuarios.css" />
+    <script type="text/javascript" src="js/json.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/cadastre-se.js"></script>
+    <script type="text/javascript">
+        var $JQuery = jQuery.noConflict()
+    </script>
+</head>
+<body>
+<div class="menu_cadastro">
+    Aproveite é gratuíto!
+</div>
+<div class="divbranca">
+    <br />
+    <div class="divSucesso">
+        <table style="margin: 0 auto;">
+            <tr>
+                <td>
+                    Em breve receberá em seu Email a confirmação do cadastro!<br />
+                    Verifique sua caixa de Spam
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Login" class="btn_cadastre_se" onclick="window.location='index.php'">
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="conteudo_cadastre_se">
+        <div class="titulo_dados">Dados Obrigatórios</div>
+        <br />
+        <br />
+        <table class="dados_usuario">
+            <tr>
+                <td>*Nome do Estabelecimento: </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="txtEstabelecimento" class="campos_cadastre_se"></td>
+            </tr>
+            <tr class="error">
+                <td><span id="spnEstabelecimento">Preencher estabelecimento</span></td>
+            </tr>
+            <tr>
+                <td>*Nome: </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="txtNome" class="campos_cadastre_se"></td>
+            </tr>
+            <tr class="error">
+                <td><span id="spnNome">Preencher nome</span></td>
+            </tr>
+            <tr>
+                <td>Telefone: </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="txtTelefone" class="campos_cadastre_se"></td>
+            </tr>
+            <tr class="error">
+                <td><span id="spnTelefone">Preencher telefone</span></td>
+            </tr>
+            <tr>
+                <td>*Email: </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="txtEmail" class="campos_cadastre_se"></td>
+            </tr>
+            <tr class="error">
+                <td><span id="spnEmail">Preencher email</span></td>
+            </tr>
+            <!--<tr>
+                <td>CPF/CNPJ: </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="txtCpfCnpj" class="campos_cadastre_se"></td>
+            </tr>-->
+            <tr>
+                <td>*Senha: </td>
+            </tr>
+            <tr>
+                <td><input type="password" id="txtSenha" class="campos_cadastre_se"></td>
+            </tr>
+            <tr class="error">
+                <td><span id="spnSenha">Preencher senha</span></td>
+            </tr>
+            <tr>
+                <td>*Confirmar Senha: </td>
+            </tr>
+            <tr>
+                <td><input type="password" id="txtCSenha" class="campos_cadastre_se"></td>
+            </tr>
+            <tr class="error">
+                <td><span id="spnCSenha">Preencher senha</span></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Cadastrar" class="btn_cadastre_se" onclick="Cadastrar();">
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Voltar" class="btn_cadastre_se" onclick="window.location='index.php'">
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+
+</div>
+</body>
+</html>

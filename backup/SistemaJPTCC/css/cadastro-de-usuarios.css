@@ -1,0 +1,32 @@
+.campos_cadastro{
+	background: rgb(255, 255, 255);
+	box-sizing: border-box;
+	color: #333;
+	cursor: text;
+	font-family: "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: auto;
+	line-height: 1.4;
+	overflow: hidden;
+	padding-bottom: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 6px;
+	border-bottom-color: #ddd;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #ddd;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #ddd;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #ddd;
+	border-top-style: solid;
+	border-top-width: 1px;
+}

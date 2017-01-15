@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Esqueci Minha Senha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/sistemaJP.css"/>
+    <link rel="stylesheet" href="css/cadastro-de-usuarios.css" />
+    <script type="text/javascript" src="js/json.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/esqueci-minha-senha.js"></script>
+    <script type="text/javascript">
+        var $JQuery = jQuery.noConflict()
+    </script>
+</head>
+<body>
+<div class="menu_cadastro">
+    Esqueci Minha Senha
+</div>
+<div class="divbranca">
+    <br />
+    <div class="divSucesso">
+        <table style="margin: 0 auto;">
+            <tr>
+                <td>
+                    Em breve receberá o dados em seu Email.<br />
+                    Verifique sua caixa de <strong>Spam</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Login" class="btn_cadastre_se" onclick="window.location='index.php'">
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="conteudo_cadastre_se">
+        <div class="titulo_dados">Informe seu Login</div>
+        <br />
+        <br />
+        <table class="dados_usuario">
+            <tr>
+                <td>*Login: </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="txtEmail" class="campos_cadastre_se"></td>
+            </tr>
+            <tr class="error">
+                <td><span id="spnEmail">Preencher Login</span></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Enviar" class="btn_cadastre_se" onclick="EnviarSenha();">
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Voltar" class="btn_cadastre_se" onclick="window.location='index.php'">
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+
+</div>
+</body>
+</html>

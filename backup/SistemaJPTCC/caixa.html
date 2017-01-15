@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Caixa | Sistema JP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/sistemaJP.css" />
+    <link rel="stylesheet" href="css/cadastro-de-usuarios.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/json.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
+    <script type="text/javascript" src="js/sistemaJP.js"></script>
+    <script type="text/javascript" src="js/caixa.js"></script>
+    <script type="text/javascript" src="js/ll.js"></script>
+    <script type="text/javascript">
+        var $JQuery = jQuery.noConflict()
+    </script>
+</head>
+<body>
+    <div id="fundo"></div>
+    <div id="div_cancelar">
+        <div class="cancelar">
+            <h1>Digite a opção desejada</h1>
+            <div class="opcaoCancelar">
+                <h3>1 Cancelar Venda</h3>
+                    <h3>2 Cancelar Item</h3>
+                    <input type="text" id="id_venda_cancel">
+                        <input type="submit" value="OK" name="OK" id="submit" onclick="submeterCancelamentoVenda()">
+            </div>
+        </div>
+        <!-- <div class="cancelar_efeito"><h1>Digite o código da venda.</h1></div> -->
+
+    </div>
+
+    <div id="menu">
+        <div class="identificacao">
+            <label id="nome_usuario"></label>
+        </div>
+    </div>
+
+    <div id="slide">
+        <h1>PRÓXIMO CLIENTE</h1>
+    </div>
+
+    <div id="divbranca" class="divcontainercaixa">
+
+        <ul class="campos_venda">
+            <li>
+                <div id="nome" class="divdisplaycaixa"></div>
+            </li>
+            <li>
+                <span>Quantidade</span>
+            </li>
+            <li>
+                <input type="text" id="qtde" class="divtext" value="1" onkeydown="eventoTeclado(2)">
+            </li>
+            <li>
+                <span>Preço</span>
+            </li>
+            <li>
+                <input type="text" id="preco" disabled="true" class="divtext">
+            </li>
+            <li>
+                <span>Sub Total</span>
+            </li>
+            <li>
+                <input type="text" id="subtotal" disabled="true" class="divtext">
+            </li>
+            <li>
+                <span>Código</span>
+            </li>
+            <li>
+                <input type="text" id="codigo" class="divtext" onkeydown="eventoTeclado(1)">
+            </li>
+            <li>
+                <span>Total</span>
+            </li>
+            <li>
+                <input type="text" id="total" disabled="true" class="divtext">
+            </li>
+        </ul>
+
+        <div id="nota" class="divnota"></div>
+
+        <nav id="footer_caixa">
+            <ul>
+                <li>
+                    <a href='#'>
+                        <div id="finalizar" class="footer_caixa">
+                            <h2>Finalizar</h2>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href='#'>
+                        <div id="button_cancelar" class="footer_caixa">
+                            <h2>Cancelar</h2>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href='#'>
+                        <div id="calculadora" class="footer_caixa">
+                            <h2>Calculadora</h2>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href='#'>
+                        <div id="consultar" class="footer_caixa">
+                            <h2>Consultar</h2>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

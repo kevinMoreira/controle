@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Cadastro de Usuários | Sistema JP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/sistemaJP.css" />
+    <link rel="stylesheet" href="css/cadastro-de-usuarios.css" />
+    <script type="text/javascript" src="js/json.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/sistemaJP.js"></script>
+    <script type="text/javascript" src="js/cadastro-de-usuarios.js"></script>
+    <script type="text/javascript">
+        var $JQuery = jQuery.noConflict()
+    </script>
+</head>
+<body>
+    <div id="menu">
+        <div class="identificacao">
+            <label id="nome_usuario"></label>
+        </div>
+    </div>
+    <div id="divbranca" class="divbranca">
+        <h3>Cadastro de Usuários</h3>
+        <div class="divrisco"></div>
+        <table>
+            <tr>
+                <td><span>Nome</span></td>
+                <td><span>CPF</span></td>
+                <td><span>Data de Nascimento</span></td>
+                <td><span>Telefone</span></td>
+                <td><span>Celular</span></td>
+                <td><span>E-mail</span></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="nome" class="campos_cadastro" size="30" /></td>
+                <td>
+                    <input type="text" id="cpf" class="campos_cadastro" size="11" /></td>
+                <td>
+                    <input type="date" id="data_nascimento" class="campos_cadastro" size="15" /></td>
+                <td>
+                    <input type="text" id="telefone" class="campos_cadastro" size="20" /></td>
+                <td>
+                    <input type="text" id="celular" class="campos_cadastro" size="20" /></td>
+                <td>
+                    <input type="text" id="email" class="campos_cadastro" size="30" /></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><span>CEP</span></td>
+                <td><span>Endereço</span></td>
+                <td><span>N°</span></td>
+                <td><span>Complemento</span></td>
+                <td><span>Bairro</span></td>
+                <td><span>Cidade</span></td>
+                <td><span>UF</span></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="cep" class="campos_cadastro" size="15" /></td>
+                <td>
+                    <input type="text" id="endereco" class="campos_cadastro" size="30" /></td>
+                <td>
+                    <input type="text" id="numero" class="campos_cadastro" size="5" /></td>
+                <td>
+                    <input type="text" id="complemento" class="campos_cadastro" size="30" /></td>
+                <td>
+                    <input type="text" id="bairro" class="campos_cadastro" /></td>
+                <td>
+                    <input type="text" id="cidade" class="campos_cadastro" /></td>
+                <td>
+                    <input type="text" id="uf" class="campos_cadastro" size="5" /></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <tr>
+                    <td><span>Login</span></td>
+                    <td><span>Senha</span></td>
+                    <td><span>Departamento</span></td>
+                </tr>
+                <td>
+                    <input type="text" id="login" class="campos_cadastro" size="30" /></td>
+                <td>
+                    <input type="password" id="senha" class="campos_cadastro" maxlength="8" size="30" /></td>
+                <td>
+                    <select id="departamento" class="campos_cadastro" /></td>
+                <td><span>Status</span></td>
+                <td>
+                    <input type="checkbox" id="status" checked="1" alt="Ativo" title="Ativo" value="1" onclick="MudaStatus();" /></td>
+            </tr>
+        </table>
+
+        <div id="titulo">
+            <h3>Permissões</h3>
+            <div class="divrisco"></div>
+        </div>
+        <div id="permissoes"></div>
+    </div>
+    <div class="divferramentas">
+        <div class="navegacao">
+            <!-- <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/primeiro.png);" id="D1" onclick="D1_onClick()"></div>
+                <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/anterior.png);" id="D2" onclick="D2_onClick()"></div>
+                <input type="text" class="campos_cadastro" style="float:left;" id="codigo" onkeydown="codigo_KeyDown()" size="5"/>
+                <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/proximo.png);" id="D3" onclick="D3_onClick()"></div>
+                <div class="botao_div_cinza_com_sombra" style="width:40px; background-image:url(imagens/ultimo.png);" id="D4" onclick="D4_onClick()"></div> -->
+            <table class="alinhamento_centralizado">
+                <tr>
+                    <td>
+                        <div class="botao_div_cinza_com_sombra" style="width: 40px; background-image: url(imagens/primeiro.png);" id="D1" onclick="D1_onClick()"></div>
+                    </td>
+                    <td>
+                        <div class="botao_div_cinza_com_sombra" style="width: 40px; background-image: url(imagens/anterior.png);" id="D2" onclick="D2_onClick()"></div>
+                    </td>
+                    <td>
+                        <input type="text" class="campos_cadastro" style="float: left;" id="codigo" onkeydown="codigo_KeyDown()" size="5" />
+                    <td>
+                        <div class="botao_div_cinza_com_sombra" style="width: 40px; background-image: url(imagens/proximo.png);" id="D3" onclick="D3_onClick()"></div>
+                    </td>
+                    <td>
+                        <div class="botao_div_cinza_com_sombra" style="width: 40px; background-image: url(imagens/ultimo.png);" id="D4" onclick="D4_onClick()"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="botoes">
+        <div class="divbotoes">
+            <!-- <img src="imagens/novo.png" width="50" height="50" alt="Cadastrar" title="Cadastrar" class="efeito_subir" id="novo" onclick="Novo()">
+                <img src="imagens/editar.png" width="50" height="50" alt="Editar" title="Editar" class="efeito_subir" id="editar" onclick="Editar();">
+                <img src="imagens/excluir.png" width="50" height="50" alt="Excluir" title="Excluir" class="efeito_subir" id="excluir" onclick="Excluir();">
+                <img src="imagens/pesquisar.png" width="47" height="47" alt="Pesquisar" title="Pesquisar" class="efeito_subir" id="pesquisar" onclick="Pesquisar();"> -->
+
+            <table class="alinhamento_centralizado">
+                <tr>
+                    <td>
+                        <img src="imagens/novo.png" width="50" height="50" alt="Cadastrar" title="Cadastrar" class="efeito_subir" id="novo" onclick="Novo()">
+                    </td>
+                    <td>
+                        <img src="imagens/editar.png" width="50" height="50" alt="Editar" title="Editar" class="efeito_subir" id="editar" onclick="Editar();">
+                    </td>
+                    <td>
+                        <img src="imagens/excluir.png" width="50" height="50" alt="Excluir" title="Excluir" class="efeito_subir" id="excluir" onclick="Excluir();">
+                    <td>
+                        <img src="imagens/pesquisar.png" width="47" height="47" alt="Pesquisar" title="Pesquisar" class="efeito_subir" id="pesquisar" onclick="Pesquisar();">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
